@@ -46,6 +46,7 @@ Available logos are:
 | Slackware    | `fo-slackware[-inverse]` | `<span class="fo-slackware"></span>`
 | Tux          | `fo-tux`                 | `<span class="fo-tux"></span>`
 | Ubuntu       | `fo-ubuntu[-inverse]`    | `<span class="fo-ubuntu"></span>`
+| Windows       | `fo-win10`              | `<span class="fo-win10"></span>`
 
 ## Dependencies ##
 * This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.
