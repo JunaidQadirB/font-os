@@ -1,7 +1,7 @@
 {
   "name": "jeykeu/font-os",
   "description": "An icon font providing OS logos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "style": "assets/font-os.css",
   "authors": [
     "Junaid Qadir Shekhanzai (shekhanzai.baloch@gmail.com)",
