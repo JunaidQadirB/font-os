@@ -76,7 +76,8 @@
 .fo-slackware-inverse:before,
 .fo-tux:before,
 .fo-ubuntu:before,
-.fo-ubuntu-inverse:before {
+.fo-ubuntu-inverse:before,
+.fo-win10:before {
   display: inline-block;
   font-family: "font-os";
   font-style: normal;
@@ -119,3 +120,4 @@
 .fo-tux:before { content: "\f119"; }
 .fo-ubuntu:before { content: "\f11a"; }
 .fo-ubuntu-inverse:before { content: "\f11b"; }
+.fo-win10:before { content: "\f11c"; }

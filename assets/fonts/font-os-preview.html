@@ -187,7 +187,8 @@
 .fo-slackware-inverse:before,
 .fo-tux:before,
 .fo-ubuntu:before,
-.fo-ubuntu-inverse:before {
+.fo-ubuntu-inverse:before,
+.fo-win10:before {
         display: inline-block;
   font-family: "font-os";
   font-style: normal;
@@ -230,6 +231,7 @@
 .fo-tux:before { content: "\f119"; }
 .fo-ubuntu:before { content: "\f11a"; }
 .fo-ubuntu-inverse:before { content: "\f11b"; }
+.fo-win10:before { content: "\f11c"; }
     </style>
 
     <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -245,7 +247,7 @@
   <body class="characters-off">
     <div id="page" class="container">
       <header>
-        <h1>font-os contains 28 glyphs:</h1>
+        <h1>font-os contains 29 glyphs:</h1>
         <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
       </header>
 
@@ -611,6 +613,19 @@
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fo-ubuntu-inverse" />
           <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11b;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fo-win10" class="fo-win10"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fo-win10" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11c;" />
         </div>
       </div>
       
