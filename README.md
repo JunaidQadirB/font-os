@@ -4,6 +4,8 @@
 
 font-os is an icon font containing Operating System logos to be used on your website.
 
+font-os is a fork of [font-logos](https://github.com/lukas-w/font-logos).
+
 ## Usage ##
 
 *Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
